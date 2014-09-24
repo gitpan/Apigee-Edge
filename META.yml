@@ -28,6 +28,6 @@ resources:
   bugtracker: https://github.com/binary-com/perl-Apigee-Edge/issues
   homepage: https://github.com/binary-com/perl-Apigee-Edge
   repository: https://github.com/binary-com/perl-Apigee-Edge.git
-version: 0.01
+version: 0.02
 x_contributors:
   - 'Jean-Yves Sireau <jy@binary.com>'
