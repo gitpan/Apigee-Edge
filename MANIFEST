@@ -12,6 +12,8 @@ examples/api_products.pl
 examples/apps.pl
 examples/developer.pl
 examples/developer_app.pl
+examples/helper.pl
 lib/Apigee/Edge.pm
+lib/Apigee/Edge/Helper.pm
 t/basic.t
 t/release-pod-syntax.t
