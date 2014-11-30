@@ -2,14 +2,14 @@ package Apigee::Edge::Helper;
 
 use strict;
 use warnings;
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 use Carp;
 use base 'Apigee::Edge';
 use URI::Split qw(uri_split);
 
 use vars qw/$errstr/;
-sub errstr { $errstr };
+sub errstr { $errstr || Apigee::Edge->errstr };
 
 sub get_top_developer_app {
     my ($self, $email) = @_;
