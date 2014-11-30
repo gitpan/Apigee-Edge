@@ -2,7 +2,7 @@ package Apigee::Edge;
 
 use strict;
 use warnings;
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 use Carp;
 use Mojo::UserAgent;
@@ -22,7 +22,7 @@ sub new {
     }
 
     $args{endpoint} ||= 'https://api.enterprise.apigee.com/v1';
-    $args{timeout}  ||= 30; # for ua timeout
+    $args{timeout}  ||= 60; # for ua timeout
 
     return bless \%args, $class;
 }
